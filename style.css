@@ -89,4 +89,9 @@ button.sign-top {
     height: 200px;
     width: 200px;
     border-color: #3e84f5;
+    border-radius: 10px;
+}
+
+.subtext {
+    display: flex;
 }
