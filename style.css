@@ -86,13 +86,17 @@ button {
 
 .subinfo {
     display: flex;
+    justify-content: space-between;
 }
 
 .placeholder {
+    display: block;
     height: 200px;
     width: 200px;
     border: 3px solid #3e84f5;
     border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .subtext {
