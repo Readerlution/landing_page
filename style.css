@@ -73,6 +73,9 @@ button {
 }
 
 /* second tile */
+.second-tile {
+    padding-left: 25px;
+}
 
 .info-header {
     text-align: center;
@@ -85,7 +88,7 @@ button {
     display: flex;
 }
 
-.subinfo .placeholder {
+.placeholder {
     height: 200px;
     width: 200px;
     border: 3px solid #3e84f5;
@@ -93,7 +96,8 @@ button {
 }
 
 .subtext {
-    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 /* Third-Tile */
